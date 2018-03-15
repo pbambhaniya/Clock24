@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>All News</item>
+        <item>Feed</item>
+        <item>Weather</item>
+        <item>Help &amp; Feedback</item>
+
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@mipmap/news</item>
+        <item>@mipmap/setting</item>
+        <item>@mipmap/waither</item>
+        <item>@mipmap/help</item>
+    </array>
+
+</resources>

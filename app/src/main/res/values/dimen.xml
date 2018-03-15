@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="circle_min">5dp</dimen>
+    <dimen name="circle_max">7dp</dimen>
+
+</resources>

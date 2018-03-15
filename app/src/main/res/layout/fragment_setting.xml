@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/swbusiness"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Business"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+
+            <Switch
+                android:id="@+id/swsport"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Sport"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+
+            <Switch
+                android:id="@+id/swentertainment"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Entertainment"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+
+
+            <Switch
+                android:id="@+id/swgaming"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Gaming"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+
+            <Switch
+                android:id="@+id/swtechnology"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Technology"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+            <Switch
+                android:id="@+id/swscience"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Science"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+
+            <Switch
+                android:id="@+id/swgeneral"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="General"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+
+            <Switch
+                android:id="@+id/swmusic"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Music"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+
+            <Switch
+                android:id="@+id/swpolitics"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:padding="10dp"
+                android:text="Politics"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:orientation="vertical"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+

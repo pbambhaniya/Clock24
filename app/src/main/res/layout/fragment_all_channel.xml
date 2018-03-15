@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context="com.multipz.clock24.Fragment.AllChannelFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.etsy.android.grid.StaggeredGridView
+        android:id="@+id/gridview"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:column_count="2"
+        app:column_count_landscape="2"
+        app:column_count_portrait="3"
+        app:item_margin="8dp">
+    </com.etsy.android.grid.StaggeredGridView>
+
+    <TextView
+        android:id="@+id/textnodata"
+        android:visibility="gone"
+        android:text="Data Not Found"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+</LinearLayout>

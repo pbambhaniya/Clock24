@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fmlbig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:id="@+id/imagebig"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/noimagebig" />
+
+        <TextView
+            android:id="@+id/frameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#33222222"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#fdfdfd"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rllist"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <RelativeLayout
+            android:id="@+id/rllistview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/urlimage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/noimage" />
+        </RelativeLayout>
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rlddd"-->
+            <!--android:layout_toRightOf="@id/rllistview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/rllistview"
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_above="@+id/txt_time"
+            android:maxLines="2"
+            android:textColor="#fdfdfd" />
+        <!-- android:layout_toLeftOf="@+id/img_show"-->
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/rllistview"
+            android:id="@+id/txt_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#fdfdfd"
+            android:textSize="12sp" />
+        </RelativeLayout>
+
+    <!--</RelativeLayout>-->
+
+
+</LinearLayout>
